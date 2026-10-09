@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "../../../packages/literature-center/src/styles/theme.css";
+
+@source "../../../packages/literature-center/src";
+@source "../../../packages/literature-reader/src";
+

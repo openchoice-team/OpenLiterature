@@ -1,0 +1,31 @@
+[package]
+name = "reader-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "reader-api"
+path = "src/main.rs"
+
+[dependencies]
+reader-db = { path = "../reader-db" }
+anyhow.workspace = true
+async-trait.workspace = true
+axum.workspace = true
+chrono.workspace = true
+dotenvy.workspace = true
+jsonwebtoken.workspace = true
+mime_guess.workspace = true
+pdf-extract.workspace = true
+pgvector.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sqlx.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+uuid.workspace = true

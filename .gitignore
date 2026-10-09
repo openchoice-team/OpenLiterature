@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+*.log
+.vite/
+coverage/
+.env
+backend/target/
+backend/data/
+.opencode/
